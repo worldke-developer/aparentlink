@@ -24,7 +24,7 @@ $company_active = in_array($page_active, ['about', 'contact', 'blog'], true);
     <meta name="description" content="aparentlink — Grow your global affiliate revenue with smarter partnerships. Premium performance marketing for publishers, advertisers, and creators.">
     <title><?= isset($page_title) ? htmlspecialchars($page_title) . ' · aparentlink' : 'aparentlink · Smarter Affiliate Partnerships' ?></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body id="top">
 
